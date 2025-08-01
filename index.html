@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Company Profile</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <img src="https://picsum.photos/50" alt="Logo" />
+    </div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#profile">Our Profile</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#message">Message Us</a>
+    </div>
+  </nav>
+
+ <!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="container">
+    <h1 id="welcome-text">Hi, Welcome to Website</h1>
+    <p>"Ini adalah website latihan pertama"</p>
+    <div class="banner"></div>
+  </div>
+  <hr />
+</section>
+
+
+  <!-- Headquarter Section -->
+  <section id="portfolio" class="headquarter">
+    <h2>Our Headquarter</h2>
+    <div class="circles">
+      <div class="circle">
+        <div class="circle-img"></div>
+        <p>Jakarta</p>
+      </div>
+      <div class="circle">
+        <div class="circle-img"></div>
+        <p>Bandung</p>
+      </div>
+      <div class="circle">
+        <div class="circle-img"></div>
+        <p>Surabaya</p>
+      </div>
+    </div>
+    <hr />
+  </section>
+
+  <!-- Our Profile Section -->
+  <section id="profile" class="profile">
+    <h2>Our Profile</h2>
+    <div class="profile-banner"></div>
+    <div class="about">
+      <h3>About the Company</h3>
+      <p>Kami adalah perusahaan teknologi yang berfokus pada inovasi digital untuk membantu bisnis berkembang dalam era modern.</p>
+      <p>Dengan tim profesional dan berdedikasi, kami menawarkan solusi terbaik yang sesuai dengan kebutuhan klien.</p>
+      <h3>Vision and Mission</h3>
+      <ul>
+        <li>Menjadi pemimpin pasar dalam solusi digital.</li>
+        <li>Menyediakan layanan berkualitas tinggi dan berorientasi pada pelanggan.</li>
+        <li>Mendorong inovasi berkelanjutan dalam teknologi.</li>
+      </ul>
+    </div>
+    <hr />
+  </section>
+
+  <!-- Message Us Section -->
+  <section id="message" class="message">
+  <div class="container">
+    <h2>Message Us</h2>
+    <div class="form-container">
+    <form id="contact-form">
+      <div class="form-group">
+        <label><span>Nama :</span> <input type="text" id="name" /></label>
+        <label><span>Tanggal Lahir :</span> <input type="date" id="dob" /></label>
+        <label><span>Jenis Kelamin :</span>
+          <input type="radio" name="gender" value="Laki-laki" /> Laki-laki
+          <input type="radio" name="gender" value="Perempuan" /> Perempuan
+        </label>
+        <label><span>Pesan :</span> <textarea id="message-text"></textarea></label>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <div class="form-output" id="form-output"></div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>Created by Nadila</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
